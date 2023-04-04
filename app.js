@@ -11,7 +11,7 @@ const multer = require('multer');
 const errorController = require('./controllers/error');
 const User = require('./models/user');
 
-const DB_USER = encodeURIComponent('imsurendra');
+const DB_USER = encodeURIComponent('/add username');
 const DB_PASSWORD = encodeURIComponent(''); // removed before making public
 const MONGODB_URI =
 `mongodb+srv://${DB_USER}:${DB_PASSWORD}@cluster0.fy6rw.mongodb.net/shop`;
